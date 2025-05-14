@@ -81,10 +81,6 @@ footer {
     font-size: 18px;
 }
 
-.sign-up.button {
-    max-with
-}
-
 .sign-up-img img {
     max-height: 200;
     max-width: 400;
@@ -105,14 +101,14 @@ footer {
 
 .info-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .info-img {
-    display: flex;
-    flex-flow: column wrap;
     max-width: 200px;
     padding: 25px;
+    text-align: center;
 }
 
 .info-img img {
