@@ -81,6 +81,10 @@ footer {
     font-size: 18px;
 }
 
+.sign-up.button {
+    margin-top: 2%;
+}
+
 .sign-up-img img {
     max-height: 200;
     max-width: 400;
