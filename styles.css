@@ -17,6 +17,13 @@ a {
     text-decoration: none;
 }
 
+.button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 14px 36px;
+}
+
 header {
     background: #1F2937;
     display: flex;
@@ -49,13 +56,18 @@ footer {
     font-weight: 600;
 }
 
-
 .sign-up-container {
     background-color: #1f2937;
     display: flex;
     gap: 5%;
     justify-content: space-between;
     padding: 1% 20%;
+}
+
+.sign-up-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .sign-up-header {
@@ -67,6 +79,10 @@ footer {
 .sign-up-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.sign-up.button {
+    max-with
 }
 
 .sign-up-img img {
@@ -136,4 +152,8 @@ footer {
 .banner-header {
     font-size: 24px;
     font-weight: bold;
+}
+
+.banner.button {
+    border: 2px solid #ffffff;
 }
