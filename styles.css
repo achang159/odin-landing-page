@@ -20,8 +20,14 @@ a {
 header {
     background: #1F2937;
     display: flex;
-    justify-content: space-between;
     padding: 1% 20% 0%;
+}
+
+.header-links {
+    display: flex;
+    flex-grow: 1;
+    gap: 2%;
+    justify-content: flex-end;
 }
 
 footer {
@@ -39,16 +45,10 @@ footer {
 
 .header-logo {
     color: #f9faf8;
-    display: flex;
     font-size: 24px;
     font-weight: 600;
-    justify-content: flex-start;
 }
 
-.header-links {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .sign-up-container {
     background-color: #1f2937;
@@ -75,8 +75,6 @@ footer {
 }
 
 .info-container {
-    display: flex;
-    flex-direction: column;
     padding: 1% 20%;
 }
 
@@ -98,7 +96,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     max-width: 200px;
-    padding: 16px;
+    padding: 25px;
 }
 
 .info-img img {
@@ -108,8 +106,6 @@ footer {
 
 .quote-container {
     background: #e6e7eb;
-    display: flex;
-    flex-flow: column wrap;
     margin: 2% 0%;
     padding: 2% 21%;
 }
@@ -135,11 +131,6 @@ footer {
     justify-content: space-between;
     margin: 2% 20%;
     padding: 2% 10%;
-}
-
-.banner-left {
-    display: flex;
-    flex-direction: column;
 }
 
 .banner-header {
